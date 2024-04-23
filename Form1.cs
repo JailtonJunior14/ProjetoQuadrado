@@ -9,11 +9,13 @@ namespace ProjetoQuadrado
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double text = double.Parse(textBox1.Text);
+            textBox2.Text = (Convert.ToDouble(textBox1.Text)*Convert.ToDouble(textBox1.Text)).ToString();
 
-            double text2 = text * text;
-            string numtext = text2.ToString();
-            textBox2.Text = numtext;
+            //double text = double.Parse(textBox1.Text);
+
+            //double text2 = text * text;
+            //string numtext = text2.ToString();
+            //textBox2.Text = numtext;
         }
 
         private void button2_Click(object sender, EventArgs e)
